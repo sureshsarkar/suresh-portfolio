@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+/* hader section css  */
+.bg_color_main {
+    background: #e7d9ff;
+    height: 90px;
+    align-items: center;
+    display: flex;
+}
+.bg_nav_color {
+    background: white;
+    border-radius: 10px;
+}
+a._logo {
+    font-weight: 500;
+    font-size: 23px;
+}
+ul.c_gry li a {
+    color: #616161;
+    font-weight: 500;
+}
+/* header section css end  */
+
+/* banner section css  */
+.banner_imagesd{
+    background-image: url(../images/main_banner.jpg);
+    height: 820px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner_inner_text h3 span {
+    color: #ff895b;
+}
+.banner_inner_text h3 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.banner_inner_text h2 {
+    font-size: 3rem;
+}
+.banner_inner_text {
+    padding-top: 10rem;
+}
+.banner_inner_text button {
+    background: #ff895b;
+    border: navajowhite;
+    padding: 10px 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 1px #959595;
+    margin-top: 2rem;
+}
+.banner_inner_text button a {
+    text-decoration: none;
+    color: black;
+}
+.banner_inner_text p {
+    color: black;
+    margin-top: 2rem;
+}
+/* banner sction css end  */
+
+/* our servoces css  */
+
+.__marg {
+    margin-top: 4rem;
+}
+.bg_par {
+    background: #e8d9ff;
+    border-radius: 10px;
+    padding: 15px;
+    height: 300px;
+}
+.our_sers_img img {
+    width: 40%;
+    
+}
+.ppr_inr_text p {
+    font-size: 12px;
+    text-align: justify;
+    color: #616161;
+    font-weight: 600;
+    padding-top: 6px;
+}
+.ppr_inr_text h4 {
+    font-weight: 600;
+}
+.ppr_inr_text {
+    padding-top: 15px;
+}
+
+/* our services end  */
+
+/* why choose us css  */
+.why_choose {
+    background: #e8d9ff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+.why_img_save {
+    width: 40%;
+}
+.why_img_save img {
+    width: 60%;
+}
+.save_time {
+    background: white;
+    border-radius: 10px;
+    padding: 0px 20px;
+    padding-top: 10px;
+}
+.why_inner_contnt p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #616161;
+}
+
+.why_inner_contnt h4 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.inner_why_contnt_rightside h3 span {
+    color: #ff895b;
+}
+.inner_why_contnt_rightside h3 {
+    font-size: 3rem;
+    color: #616161;
+}
+.inner_why_contnt_rightside p {
+    font-size: 1rem;
+    color: #616161;
+    padding-top: 15px;
+    text-align: justify;
+}
+/* why choose us End  */
+
+/* work way css  */
+.work_way_img {
+    text-align: end;
+}
+.work_way_img img {
+    width: 90%;
+}
+.work_way_to p {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.work_way_to {
+    display: inline-block;
+    background: #e8d9ff;
+    border-radius: 35px;
+    padding: 3px 15px;
+    margin-bottom: 12px;
+}
+/* End work way  */
+
+/* make diff css  */
+.make_diff_img img {
+    width: 90%;
+}
+.some_diff img {
+    width: 35px;
+    height: 35px;
+    margin-top: 22px;
+    margin-right: 15px;
+}
+.some_diff p {
+    font-size: 1rem;
+    max-width: 500px;
+}
+/* make diff end */
+
+/* profile done css  */
+/* Style tab links */
+.tablink {
+    background-color: transparent;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #ff895b;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  button.web_d {
+    background: transparent;
+    border: 2px solid #ff895b;
+    color: black;
+    font-weight: 500;
+    width: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button.graphic_d {
+    background: transparent;
+    border: 2px solid #ff895b;
+    color: black;
+    font-weight: 500;
+    width: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button.app_d {
+    border: 2px solid #ff895b;
+    color: black;
+    font-weight: 500;
+    width: 15%;
+    margin-right: 20px;
+}
+.app_desi_mo {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+.app_desi_mo img {
+  width: 80%;
+  height: 80%;
+}
+/* profile done css end  */
+
+/* testmonial section css  */
+section.bg_testmonial {
+    background: #e8d9ff;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.container_test {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+}
+.testmonial_content p {
+    margin-top: -40px;
+}
+.testmonial_content {
+    padding: 13px;
+}
+.testmonial_content span {
+    font-size: 4rem;
+    color: #707070;
+}
+.why_img_save_test {
+    width: 20%;
+}
+.why_inner_contnt {
+    margin-top: auto;
+    margin-left: 10px;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.owl-nav.disabled {
+    position: absolute;
+    top: -100px;
+    right: 0;
+}   
+button.owl-prev {
+    background: white !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+}
+button.owl-next {
+    background: white !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #869791;
+    color: #000000;
+    text-decoration: none;
+}
+.owl-theme .owl-nav [class*=owl-]{
+    background: #869791;
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* testmonial css end  */
+
+/* blog section css  */
+.bg_blog {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 90%;
+}
+.blog_img img {
+    width: 100%;
+}
+.blog_name_sumiter {
+    display: flex;
+    justify-content: space-between;
+}
+.blog_redm h5 {
+    margin-top: 20px;
+    border-top: 1px solid lightgrey;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+.blog_redm h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* blog css End  */
+
+/* contact us css  */
+form.contc_for textarea {
+    width: 100%;
+    background: #FBFBFB;
+    border: 1px solid #D4D4D4;
+    padding: 19px;
+    border-radius: 10px;
+}
+
+form.row.g-3.contc_for {
+    padding: 0px 90px 0px 15px;
+}
+form.contc_for input {
+    width: 100%;
+    background: #FBFBFB;
+    border: 1px solid #D4D4D4;
+    padding: 19px;
+    border-radius: 10px;
+}
+.cont_buto button{
+
+    background: #ff895b;
+    border: navajowhite;
+    padding: 10px 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 1px #959595;
+    margin-top: 2rem;
+}
+.cont_buto{
+    margin: 0;
+}
+.cont_edit_cont img {
+    width: 7%;
+}
+.cont_edit_cont {
+/*    justify-content: end;*/
+    margin-top: 35px;
+}
+.cont_edit_cont p {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #616161;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 45px;
+    width: 32%;
+}
+.bg_ppr_sen p {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+.bg_ppr_sen {
+    background: #e8d9ff;
+    border: 1px solid #707070;
+    padding: 35px;
+    text-align: center;
+}
+.cont_buto button a {
+    text-decoration: none;
+    color: black;
+}
+/* contact us css end  */
+
+/* footer css  */
+section.bg_footer {
+    background: #ff895b;
+}
+.foot_lf {
+    display: flex;
+    justify-content: space-between;
+}
+.links_con span {
+    border-right: 2px solid black;
+    max-height: 30px;
+}
+
+.links_con p {
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.links_con {
+    display: flex;
+}
+.cial_med img {
+    width: 40%;
+}
+.cial_med {
+    text-align: end;
+}
+
+.lightBlueColor{
+    color: #38c5ff !important;
+}
+.servicesCla{
+    text-align: center;
+    font-size: 3rem;
+    color: #ff895b;
+}
+/* footer css  */
