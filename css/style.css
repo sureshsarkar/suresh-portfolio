@@ -27,7 +27,8 @@ ul.c_gry li a {
 /* banner section css  */
 .banner_imagesd{
     background-image: url(../images/main_banner.jpg);
-    height: 820px;
+    /* height: 820px; */
+    height: 746px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -43,6 +44,9 @@ ul.c_gry li a {
 }
 .banner_inner_text {
     padding-top: 10rem;
+}
+#our_services{
+    padding-top: 24px;
 }
 .banner_inner_text button {
     background: #ff895b;
@@ -66,7 +70,7 @@ ul.c_gry li a {
 /* our servoces css  */
 
 .__marg {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .bg_par {
     background: #e8d9ff;
@@ -167,6 +171,10 @@ ul.c_gry li a {
 }
 /* End work way  */
 
+#project{
+    background-color: #e8d9ff;
+    padding-top: 1px;
+}
 /* make diff css  */
 .make_diff_img img {
     width: 90%;
@@ -321,8 +329,21 @@ button.owl-next {
     border-radius: 20px;
     max-width: 90%;
     height: 260px;
+    display: grid;
+    align-content: space-between;
 }
-
+.choose_us_section{
+    background-color: #e8d9ff;
+    padding-top: 1px;
+    margin-top: 12px;
+    padding-bottom: 40px;
+}
+.bg_blog:hover{
+    padding: 27px;
+}
+a{
+    text-decoration: none;
+}
 .bg_blog_green {
     background: #0b7066;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
